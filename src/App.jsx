@@ -1,5 +1,5 @@
 import About from './components/About'
-import Header from './components/Header'
+import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
@@ -9,9 +9,8 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <NavBar/>
       <About/>
-      <Footer/>
       <Projects/>
       <Skills/>
       <Footer/>
