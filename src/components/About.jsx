@@ -1,11 +1,31 @@
 function About() {
     return (
-        <div class= "min-h-[64rem] flex justify-center items-center md:h-dvh bg-gradient-to-b from-sky-500 to-blue-400" id="about">  
-            <div class = "flex flex-col min-h-96 w-3/5 justify-between bg-neutral-200 p-8 rounded-md">
+        <div class= "min-h-[64rem] flex justify-center items-center bg-gradient-to-b from-sky-500 to-blue-400" id="about">  
+            <div class = "flex flex-col min-h-[28rem] w-3/5 justify-between bg-neutral-200 p-8 rounded-md">
                 <div class = "flex justify-center font-semibold text-4xl" > About Me</div>
-                <div class = "flex h-64">
-                    <div class = "w-2/5 flex justify-center items-center">Photo</div>
-                    <div class = "w-3/5 flex justify-center items-center text-xl">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+                <div class = "flex h-2/3 justify-around">
+                    <div class = "w-72 flex justify-center items-center aspect-square shrink-0">
+                        <img src = "./hqv.jpg" class = "size-72"></img>
+                    </div>
+                    <div class = "w-3/5 text-xl">
+                        <p>
+                        Hey there, I'm Hoang Quan Vo. I'm currently an undergraduate Computer Science student at 
+                        the University of British Columbia. I aim to be a software engineer, but
+                        I'm also expanding my skills in game development,
+                        machine learning and web development.
+                        </p>
+                        <br></br>
+                        <p>
+                        I really love solving difficult questions. Creating complex projects is what drives me to
+                        pursue this field. Once I'm hooked on a challenge, there is nothing that could make me stay
+                        away from the problem.
+                        </p>
+                        <p>
+                        <br></br>
+                        Outside of school, I'm passionate about video games. Some of my favorite genres include
+                        role-playing, strategy, puzzle and tower defense.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
