@@ -1,4 +1,4 @@
-function ProjectGridElement(props) {
+function ProjectChildElement(props) {
     const imgPath = props.path;
     const projectTitle = props.title;
     const demoLink = props.demo;
@@ -49,4 +49,4 @@ function ProjectGridElement(props) {
 
 
 
-export default ProjectGridElement;
+export default ProjectChildElement;
