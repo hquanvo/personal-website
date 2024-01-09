@@ -2,7 +2,7 @@ import ProjectChildElement from "./ProjectChildElement"
 
 function Projects() {
     return (
-        <div class="bg-gradient-to-b from-sky-100 to-blue-400">
+        <div class="bg-gradient-to-b from-sky-200 to-blue-300">
 
             <div class ="w-full text-center text-4xl font-semibold" id = "projects">
                 <div>Projects</div>

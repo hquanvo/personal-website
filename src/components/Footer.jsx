@@ -1,18 +1,18 @@
 function Footer() {
     return (
-        <div class = "flex flex-col items-center text-center bg-gradient-to-b from-blue-400 to-sky-500"> 
+        <div class = "flex flex-col items-center text-center bg-gradient-to-b from-blue-300 to-sky-400"> 
             <div class = "font-semibold text-4xl">Let's Collaborate</div>
             <div class = "h-72 p-16">
                 <div class = "text-2xl *:mr-4 flex items-center">
-                    <span class = "mr-4">Connect with me through:</span>
-                    <a href="https://www.linkedin.com/in/hoang-quan-vo-5a8050217/" class = "hover:underline">
+                    <span >Connect with me through:</span>
+                    <a href="https://www.linkedin.com/in/hoang-quan-vo-5a8050217/" class = "hover:underline *:mr-2">
                         <span>
                             <img src = "./icons/linkedin.svg" class = "size-8 inline"></img>
                         </span>
                         <span>LinkedIn</span>
                     </a>
                     <span>•</span>
-                    <a href="https://github.com/hquanvo" class = "hover:underline">
+                    <a href="https://github.com/hquanvo" class = "hover:underline *:mr-2">
                         <span >
                             <img src = "./icons/github.svg" class = "size-8 inline"></img>
                         </span>

@@ -1,6 +1,6 @@
 function About() {
     return (
-        <div class= "min-h-[64rem] flex justify-center items-center bg-gradient-to-b from-sky-500 to-blue-300" id="about">  
+        <div class= "min-h-[64rem] flex justify-center items-center bg-gradient-to-b from-sky-400 to-blue-300" id="about">  
             <div class = "flex flex-col min-h-[28rem] xl:w-3/5 justify-between bg-neutral-200 p-8 rounded-md">
                 <div class = "flex justify-center font-semibold text-4xl mb-6 lg:m-4" > About Me</div>
                 <div class = "lg:flex h-2/3 justify-around">

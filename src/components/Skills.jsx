@@ -1,6 +1,6 @@
 function Skills() {
     return (
-        <div class = "flex flex-col min-h-[48rem] md:items-center p-8 bg-gradient-to-b from-blue-300 to-sky-100" id="skills"> 
+        <div class = "flex flex-col min-h-[48rem] md:items-center p-8 bg-gradient-to-b from-blue-300 to-sky-200" id="skills"> 
             <div class = "w-full text-center text-4xl font-semibold mb-4" >
                 <div>Skills</div>
                 <p class = "text-xl mt-2 font-normal text-center text-slate-700">These are some of the technologies that I have worked with.</p>
