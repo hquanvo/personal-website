@@ -1,6 +1,6 @@
 function NavBar() {
     return (
-        <div class = "flex justify-between text-xl bg-sky-400">
+        <div class = "flex justify-between text-2xl md:text-xl bg-sky-400">
         <div class = "flex items-center sm:m-4 md:m-8 p-2 hover:text-neutral-50">
             <a href = "/personal-website/">
             Hoang Quan Vo

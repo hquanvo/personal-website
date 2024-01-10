@@ -6,7 +6,7 @@ function Projects() {
 
             <div class ="w-full text-center text-4xl font-semibold" id = "projects">
                 <div>Projects</div>
-                <p class = "text-xl mt-2 font-normal text-slate-700">Here are some projects that I have worked on recently.</p>
+                <p class = "text-2xl md:text-xl mt-2 font-normal text-slate-700">Here are some projects that I have worked on recently.</p>
             </div>
 
             <div class = "*:border-solid *:border-4 *:border-neutral-700 *:bg-gradient-to-br from-zinc-100 to-stone-100 *:text-center *:rounded *:w-2/3 *:h-5/6 flex flex-col lg:grid lg:grid-cols-2 lg:grid-rows-2 gap-10 justify-items-center py-6 place-items-center lg:min-h-[60rem]"> 

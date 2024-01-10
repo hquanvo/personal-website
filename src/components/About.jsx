@@ -7,7 +7,7 @@ function About() {
                     <div class = "lg:w-72 flex justify-center items-center shrink-0">
                         <img src = "./hqv.jpg" class = ""></img>
                     </div>
-                    <div class = "lg:w-3/5 text-xl *:text-center m-8">
+                    <div class = "lg:w-3/5 text-2xl md:text-xl *:text-center m-8">
                         <p>
                         Hey there, I'm Hoang Quan Vo. I'm currently an undergraduate Computer Science student at 
                         the University of British Columbia. I aim to be a software engineer, but

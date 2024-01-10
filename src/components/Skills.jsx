@@ -3,13 +3,13 @@ function Skills() {
         <div class = "flex flex-col min-h-[48rem] md:items-center p-8 bg-gradient-to-b from-blue-300 to-sky-200" id="skills"> 
             <div class = "w-full text-center text-4xl font-semibold mb-4" >
                 <div>Skills</div>
-                <p class = "text-xl mt-2 font-normal text-center text-slate-700">These are some of the technologies that I have worked with.</p>
+                <p class = "text-2xl md:text-xl mt-2 font-normal text-center text-slate-700">These are some of the technologies that I have worked with.</p>
                 </div>
-            <div class = "lg:flex py-6 justify-between text-2xl *:m-4">
+            <div class = "lg:flex py-6 justify-between text-4xl md:text-2xl *:m-4">
                 <div class = "bg-neutral-100 min-w-60 flex flex-col items-center p-10 shadow-md shadow-blue-800/70">
                     <img class = "size-24 flex justify-center" src = "./icons/binary-code.png"></img>
                     <div class = "py-4 font-semibold">Languages</div>
-                    <ul class = "list-outside list-disc text-xl">
+                    <ul class = "list-outside list-disc text-2xl md:text-xl">
                         <li >Java</li>
                         <li class = "mt-3">JavaScript</li>
                         <li class = "mt-3">HTML/CSS</li>
@@ -22,7 +22,7 @@ function Skills() {
                 <div class = "bg-neutral-100 min-w-60 flex flex-col items-center p-10 shadow-md shadow-blue-800/70">
                     <img class = "size-24" src = "./icons/framework.png"></img>
                     <div class = "py-4 font-semibold">Frameworks/Libraries</div>
-                    <ul class = "list-outside list-disc text-xl">
+                    <ul class = "list-outside list-disc text-2xl md:text-xl">
                         <li >JUnit</li>
                         <li class = "mt-3">React.js</li>
                         <li class = "mt-3">Node.js</li>
@@ -33,7 +33,7 @@ function Skills() {
                 <div class = "bg-neutral-100 min-w-60 flex flex-col items-center p-10 shadow-md shadow-blue-800/70">
                     <img class = "size-24" src = "./icons/tool-box.png"></img>
                     <div class = "py-4 font-semibold">Development Tools</div>
-                    <ul class = "list-outside list-disc text-xl">
+                    <ul class = "list-outside list-disc text-2xl md:text-xl">
                         <li >Visual Studio Code</li>
                         <li class = "mt-3">Visual Studio</li>
                         <li class = "mt-3">PyCharm</li>

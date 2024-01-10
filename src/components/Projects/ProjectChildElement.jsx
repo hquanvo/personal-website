@@ -10,7 +10,7 @@ function ProjectChildElement(props) {
             return (
                 <>
                 <div class = "flex">
-                        <div class = "font-semibold text-2xl text-slate-900 font-semibold">{projectTitle}</div>
+                        <div class = "font-semibold text-4xl md:text-2xl text-slate-900 font-semibold">{projectTitle}</div>
                         <div class = "self-end">
                         <a href={githubLink} class="ml-4 underline hover:text-blue-300">GitHub</a>
                         </div>
@@ -21,7 +21,7 @@ function ProjectChildElement(props) {
         return (
             <>
             <div class = "flex">
-                        <div class = "font-semibold text-2xl text-slate-900 font-semibold">{projectTitle}</div>
+                        <div class = "font-semibold text-4xl md:text-2xl text-slate-900 font-semibold">{projectTitle}</div>
                         <div class = "self-end">
                             <a href={demoLink} class="ml-4 underline hover:text-blue-300">Demo</a>
                         </div>
